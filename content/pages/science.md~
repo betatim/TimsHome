@@ -1,0 +1,31 @@
+title: Science
+
+These are my top publications in peer reviewed journals, followed by a link to my thesis.
+
+* **LHCb VELO Upgrade Technical Design Report**, [PDF][velotdr]
+
+>I am the team leader for the simulation and reconstruction software and edited the Module layout and Performance chapters of the report.
+
+* **Measurement of Leptonic Asymmetries and Top Quark Polarization in ttbar Production**, [Phys.Rev. D87 (2013) 011103][afb]
+
+>I performed the whole analysis: writing the code to select events, compare simulation to data and perform the statistical analysis. Wrote the final paper and shepherded the paper through internal collaboration review.
+
+* **Measurement of spin correlation in ttbar production using dilepton final states**, [Phys.Lett. B702 (2011) 16-23][spin]
+
+>I wrote the code to select events, compare simulation to data and perform the statistical analysis, edited the paper and shepherded the paper through internal collaboration and journal review.
+ 
+* **Measurement of spin correlation in ttbar production using a matrix element approach**, [Phys.Rev.Lett. 107 (2011) 032001][spinmatrix]
+
+>I prepared the data and Monte Carlo samples, planned analysis strategies and lead discussions with theorists. Created the final figures used in the paper.
+
+* **Evidence for spin correlation in ttbar production**, [Phys.Rev.Lett. 108 (2012) 032004][spincombo]
+
+>I took part in planning and discussions in our four person team on extending our previous analysis to this new final state, lead interactions with theorists. I created the final figures used in the paper.
+
+* **A measurement of the WZ and ZZ production cross sections using leptonic final states in 8.6 fb^-1 of ppbar collisions**, [arXiv:1201.5652][wzzz]
+
+> This analysis uses a multivariate classifier to identify electrons which I proposed and implemented, with efficiency gains of ~10% per electron over previous algorithms. These are the most precise WZ and ZZ cross section measurements at sqrt(s)=1.96TeV to date.
+
+* **Top Quark Spin Correlations and Leptonic Forward-Backward Asymmetries at D0**, [inspire entry][thesis]
+
+> A summary of all my work as a PhD student, my thesis. Only print it off if you need a door stop, otherwise read it on your screen.
