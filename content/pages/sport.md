@@ -1,8 +1,8 @@
 Title: Sports
 
-[Triathlon][tri]: swimming, biking and running in immediate
-succession, completing all three (including transitions!)
-in the fastest time possible.
+[Triathlon][tri]: swimming, biking and running crazy long distances
+without a break.  The aim is to complete all three sports (including
+transitions!) in the fastest time possible.
 
 In May 2013 I took part in the [Geneva half-marathon][genevahalf], a
 few weeks later I finished the [Cyclotour du leman][cyclotour], a

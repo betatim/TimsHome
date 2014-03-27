@@ -23,6 +23,8 @@ CLOUDFILES_USERNAME=my_rackspace_username
 CLOUDFILES_API_KEY=my_rackspace_api_key
 CLOUDFILES_CONTAINER=my_cloudfiles_container
 
+DEPLOYREPOSITORY=betatim.github.io
+
 DROPBOX_DIR=~/Dropbox/Public/
 
 DEBUG ?= 0
@@ -104,5 +106,19 @@ cf_upload: publish
 github: publish
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
+
+deploy: publish
+	if test -d _build; \
+	then echo " (_build directory exists)"; \
+	else mkdir _build; \
+	fi
+	if test -d _build/$(DEPLOYREPOSITORY); \
+	then echo "  (repository directory exists)"; \
+	else cd _build && git clone git@github.com:betatim/$(DEPLOYREPOSITORY).git; \
+	fi
+	cd _build/$(DEPLOYREPOSITORY) && git pull
+	rsync -r $(OUTPUTDIR)/* _build/$(DEPLOYREPOSITORY)/
+	cd _build/$(DEPLOYREPOSITORY) && git add . && git commit -m "make deploy"
+	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

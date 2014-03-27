@@ -5,16 +5,19 @@ little antimatter? Why this is so is one of the main questions the
 scientists of the [LHCb experiment][lhcb] hope to answer. I am one of
 them.
 
-I have been a [CERN][cern] research fellow since October 2012. I am
-leading the team working on the reconstruction and simulation software
-for the upgrade [Vertex Locator][velo] and am one of the editors of
-the [Technical Design Report][velotdr].
+I have been a [CERN][] research fellow since October 2012. Along
+side my research, I spend a significant amount of time designing and
+implementing pattern recognition algorithms. This code will be used in
+the real time processing of the experiment's data, so performance is
+key. I also think about how we can record as much data as possible.
 
-[cern]: http://cern.ch
+[CERN]: http://cern.ch
 
-I spend a significant amount of time designing and implementing
-pattern recognition algorithms. This code will be used in the real
-time processing of the experiment's data, so performance is key.
+I am leading the team working on the reconstruction and simulation
+software for the upgrade [Vertex Locator][velo] (VELO) and am one of
+the editors of the [Technical Design Report][velotdr]. We use
+simulations to find the best design of the VELO, as well as optimising
+the performance of the reconstruction software.
 
 When running at full steam the detectors produce around 2 TB/s of
 data, unfortunately we can not afford to record all of this. Reducing
@@ -44,7 +47,7 @@ my thesis in December 2012
 ##Publications
 
 Here is a list of my top publications and other science related
-documents, followed by a link to my PhD thesis. Take a look at the
+documents. My PhD thesis is linked to at the bottom as well. Take a look at the
 [full list of my publications][inspire] on INSPIRE.
 
 [inspire]: https://inspirehep.net/author/profile/T.Head.1
@@ -56,7 +59,7 @@ documents, followed by a link to my PhD thesis. Take a look at the
 I am the team leader for the simulation and reconstruction software project
 and was responsible for the Module layout and Performance chapters of the report.
 
-###Measurement of Leptonic Asymmetries and Top Quark Polarization in ttbar Production
+###Measurement of Leptonic Asymmetries and Top Quark Polarization in tt̅ Production
 
 [Phys.Rev. D87 (2013) 011103][afb]
 
@@ -65,7 +68,7 @@ compare simulation to data and perform the statistical
 analysis. Wrote the final paper and shepherded the paper through
 internal collaboration review.
 
-###Measurement of spin correlation in ttbar production using dilepton final states
+###Measurement of spin correlation in tt̅ production using dilepton final states
 
 [Phys.Lett. B702 (2011) 16-23][spin]
 
@@ -73,7 +76,7 @@ I wrote the code to select events, compare simulation to data and
 perform the statistical analysis, edited the paper and shepherded the
 paper through internal collaboration and journal review.
  
-###Measurement of spin correlation in ttbar production using a matrix element approach
+###Measurement of spin correlation in tt̅ production using a matrix element approach
 
 [Phys.Rev.Lett. 107 (2011) 032001][spinmatrix]
 
@@ -82,7 +85,7 @@ strategies and lead discussions with theorists. Created the final
 figures used in the paper.
 
 
-###Evidence for spin correlation in ttbar production
+###Evidence for spin correlation in tt̅ production
 
 [Phys.Rev.Lett. 108 (2012) 032004][spincombo]
 
@@ -92,7 +95,7 @@ interactions with theorists. I created the final figures used in the
 paper.
 
 
-###A measurement of the WZ and ZZ production cross sections using leptonic final states in 8.6 fb^-1 of ppbar collisions
+###A measurement of the WZ and ZZ production cross sections using leptonic final states in 8.6 fb<sup>-1</sup> of pp̅ collisions
 
 [arXiv:1201.5652][wzzz]
 
@@ -101,7 +104,7 @@ which I proposed and implemented, with efficiency gains of ~10% per
 electron over previous algorithms. These are the most precise WZ and
 ZZ cross section measurements at sqrt(s)=1.96TeV to date.
 
-###Top Quark Spin Correlations and Leptonic Forward-Backward Asymmetries at D0
+###Thesis: Top Quark Spin Correlations and Leptonic Forward-Backward Asymmetries at D0
 
 [inspire entry][thesis]
 

@@ -1,28 +1,43 @@
 Title: About
 
-![Tim Head](/images/tim.jpeg "Tim Head")
+{% img /images/tim.jpeg 200 200 "Tim Head" "Tim Head" %}
 
-I joined [CERN][cern] as a research fellow in October 2012. I
-currently work on the [LHCb experiment][lhcb] which is based at
-CERN. Here I lead the team working on the reconstruction and
-simulation software for the upgrade [Vertex Locator][velo] (VELO). I
-also work on designing and implementing an outrageously ambitious
-trigger system for LHCb.
+Tim joined [CERN][cern] as a research fellow in October 2012. He
+currently works on the [LHCb experiment][lhcb] which is based at
+CERN. He leads the team working on the reconstruction and simulation
+software for the upgrade [Vertex Locator][velo] (VELO). He is also
+designing and implementing an outrageously ambitious trigger system
+for LHCb.
 
-My favourite programming language is [Python][py]. I also write a lot
-of C++. Look at some of my projects on: [bitbucket][c] and [github][g].
+He loves to code in [Python][py], but is OK with writing C++ (mostly
+for work). Look at some of his projects on: [bitbucket][c] and
+[github][g]. He likes to use data, simulations and statistics to find
+things out.
 
 [g]: https://github.com/betatim
 [c]: https://bitbucket.org/thead/
 [py]:http://python.org
 
-I love the sport of [triathlon][tri]. It involves swimming, biking and
-running in immediate succession. The aim is to complete all three
-(including transitions!) in the fastest time possible.
+In his spare time he likes to train for and compete in
+[triathlons][tri]. This involves swimming, biking and running crazy
+long distances without a break. The aim is to complete all three
+sports (including transitions!) in the fastest time possible.
 
 [tri]: http://en.wikipedia.org/wiki/Triathlon
 
-Currently I live near Geneva, Switzerland. I've also lived in:
+##Contact
+
+If you want to get in touch, send [an email](mailto:betatim@gmail.com).
+
+Tim is on [Twitter][], and he sometimes posts pretty things to [Instagram][].
+
+[Twitter]: https://twitter.com/betatim
+[Instagram]: http://instagram.com/betatim
+
+##Location, location, location
+
+Tim currently lives near Geneva, Switzerland. You might have met him
+back when he lived in one of these places:
 
 * Manchester, England
 * Chicago, USA
