@@ -1,0 +1,6 @@
+[submodule "simplez"]
+	path = simplez
+	url = git@github.com:betatim/simplez.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = git@github.com:getpelican/pelican-plugins.git
