@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 
 THEME = "simplez"
@@ -23,16 +24,12 @@ TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
 DISPLAY_TAGS_ON_SIDEBAR = False
 
-#DIRECT_TEMPLATES = ('index', 'archives')
+PYGMENTS_STYLE = "default"
 
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
 
-#MENUITEMS = [('Sports', 'pages/sports.html'),
-#             ('About', 'pages/about-me.html'),
-#         ]
-
-STATIC_PATHS = ['images',]
+STATIC_PATHS = ['images', 'downloads']
 
 DISPLAY_PAGES_ON_MENU = True
 HIDE_SIDEBAR = True
@@ -42,9 +39,15 @@ PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook']
 
+CODE_DIR = 'downloads/code'
+NOTEBOOK_DIR = 'downloads/notebooks'
+if not os.path.exists('_nb_header.html'):
+    import warnings
+    warnings.warn("_nb_header.html not found.  "
+                  "Rerun make html to finalize build.")
+else:
+    EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
-# Social widget
-SOCIAL = (('twitter', 'https://twitter.com/betatim'),)
 
 DEFAULT_PAGINATION = 10
 
