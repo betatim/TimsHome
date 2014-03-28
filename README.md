@@ -1,7 +1,7 @@
 TimsHome
 ========
 
-This is the source of my [blog](http://betatim.github.io). It is built
+This is the source of [Tim Head's blog](http://betatim.github.io). It is built
 using the [Pelican](http://blog.getpelican.com/) blogging platform.
 
 Requirements
