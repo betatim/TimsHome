@@ -19,7 +19,7 @@ the editors of the [Technical Design Report][velotdr]. We use
 simulations to find the best design of the VELO, as well as optimising
 the performance of the reconstruction software.
 
-When running at full steam the detectors produce around 2 TB/s of
+When running at full steam the detectors produce around 4 TB/s of
 data, unfortunately we can not afford to record all of this. Reducing
 the data volume is the job of the trigger system which processes the
 data in real time. To do this it classifies data as "interesting" or
