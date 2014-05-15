@@ -1,6 +1,9 @@
 Title: About
 
-{% img /images/tim.jpeg 200 200 "Tim Head" "Tim Head" %}
+<a href="/images/tim.png">{% img /images/tim_thumb.png 200 200 "Tim Head" "Tim Head" %}</a>
+
+
+Works for [CERN][cern], doing science with data. Also: python, statistics and triathlons.
 
 Tim joined [CERN][cern] as a research fellow in October 2012. He
 currently works on the [LHCb experiment][lhcb] which is based at
