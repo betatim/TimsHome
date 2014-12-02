@@ -7,11 +7,19 @@ that all papers published in their journals will be "made free to read
 in a proprietary screen-view format that can be annotated but not
 copied, printed or downloaded" all articles they have published.
 
-If you want to read opinions about the merit of this move check out what Michael Eisen has to say
-
 Michel Eisen wonders if [Nature’s “free to view” is a magnanimous gesture or a cynical ploy?](http://www.michaeleisen.org/blog/?p=1668) Considering how hard
 they make it to find the link to the free-as-in-beer version of a paper, you
 might think so.
+
+### Update
+
+Turns out it is not this easy! The links from the bookmarklet below
+will only show you the preview if you are not visiting from a
+priviliged IP address. I thought I had tested it with several source
+IP addresses but obviously left my VPN switched on at some point.
+(Things you don't notice if you spend too much time at CERN ...) Sorry
+about that.
+
 
 ### Bookmarklet
 
