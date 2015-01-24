@@ -2,7 +2,7 @@ Title: Monte Carlo Integration with Quasi Random Numbers
 date: 2014-06-03
 slug: quasi-random-numbers
 
-{% notebook quasi-random-numbers.ipynb %}
+{% notebook quasi-random-numbers.ipynb cells[1:-1] %}
 
 This post started life as a ipython notebook,
 [download it](/downloads/notebooks/quasi-random-numbers.ipynb)

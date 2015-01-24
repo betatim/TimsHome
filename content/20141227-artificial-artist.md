@@ -2,7 +2,7 @@ Title: The Artificial Artist
 date: 2014-12-27
 slug: artificial-artist
 
-{% notebook artificial-artist.ipynb %}
+{% notebook artificial-artist.ipynb cells[1:-1] %}
 
 This post started life as a ipython notebook,
 [download it](/downloads/notebooks/artificial-artist.ipynb)
