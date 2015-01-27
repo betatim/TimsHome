@@ -1,4 +1,4 @@
-Title: Getting Ahead of Interesting Papers
+Title: Getting Ahead on Interesting Papers
 date: 2015-01-27
 slug: interesting-arxiv-papers
 
