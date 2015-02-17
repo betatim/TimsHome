@@ -2,38 +2,45 @@ Title: About
 
 <a href="/images/tim.png">{% img /images/tim_thumb.png 200 200 "Tim Head" "Tim Head" %}</a>
 
-An experimental physicist working at [CERN][cern], doing
-science with data. Also: python, statistics and triathlons.
+I am an experimental physicist working at [CERN][cern], doing science with
+data. Other things I am crazy about: python, machine learning,
+statistics and triathlons.
 
-He is a member of the [LHCb collaboration][lhcb] which is based at
-CERN. He works on designing the detector upgrade, pattern recognition
-software as well as the software trigger (processing 4TB/s of data in
-real time).
+I am a member of the [LHCb collaboration][lhcb] which is based at CERN. I work
+on designing the detector upgrade, pattern recognition software as
+well as the software trigger. The trigger decides what data to record
+using features engineered by the pattern recognition. It will be
+sifting through an astounding 3TB/s of data in real time!
 
-He has experience as a software engineer, leading international teams
+I have experience as a scientist who writes a lot of software, leading international teams
 composed of experts from different fields, statistics, data science,
 machine learning and all the things you associate with a "scientific
-approach" to solving complex problems. He is a big fan of building a
-minimally viable solution to problem and then iterating on it. In his
-spare time he likes to train for and compete in triathlons.
+approach" to solving complex problems. I am a big fan of building a
+minimally viable solution to a problem and then iterating on it. In my
+spare time I like to train for and compete in triathlons.
 
-Tim has been working for [EPFL][epfl] as a post doctoral researcher
-since September 2014. He spent the previous two years working for
+Since September 2014 I have been working for [EPFL][epfl] as a post
+doctoral researcher. I am based at CERN, the home of hte Large Hadron
+Collider. My previous two years were spent working directly for
 [CERN][cern] as a research fellow.
 
-He loves to code in [Python][py], but is OK with writing C++ (mostly
-for work). Look at some of his projects on: [bitbucket][c] and
-[github][g]. He likes to use data, simulations and statistics to find
+I love to code in [Python][py], but am OK with writing C++ (mostly
+for work). Look at some of my projects on: [bitbucket][c] and
+[github][g]. I like to use data, simulations and statistics to find
 things out.
 
 [g]: https://github.com/betatim
 [c]: https://bitbucket.org/thead/
 [py]:http://python.org
 
-In his spare time he likes to train for and compete in
+In my spare time I like to train for and compete in
 [triathlons][tri]. This involves swimming, biking and running crazy
 long distances without a break. The aim is to complete all three
-sports (including transitions!) in the fastest time possible.
+sports (including transitions!) in the fastest time possible. I enjoy
+the challenge of planning and training as well as juggling live and
+work during the months before the race. Race day is a physical and
+mental challenge as you race against the clock and your expectations
+for several hours.
 
 [tri]: http://en.wikipedia.org/wiki/Triathlon
 
