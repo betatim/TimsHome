@@ -1,6 +1,5 @@
-Title: scikit-learn for TMVA userss
+Title: scikit-learn for TMVA users
 date: 2015-02-04
-status: draft
 slug: sklearn-for-TMVA-users
 
 {% notebook sklearn-for-TMVA-users.ipynb cells[1:] %}
