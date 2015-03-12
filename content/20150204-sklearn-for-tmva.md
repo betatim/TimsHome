@@ -1,4 +1,4 @@
-Title: scikit-learn for TMVA users
+Title: scikit-learn for TMVA Users
 date: 2015-02-04
 slug: sklearn-for-TMVA-users
 
