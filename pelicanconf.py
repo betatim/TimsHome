@@ -49,7 +49,7 @@ else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = False 
 
 DEFAULT_DATE_FORMAT = "%d %B %Y"
 
