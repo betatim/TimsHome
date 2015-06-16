@@ -4,6 +4,8 @@ from __future__ import unicode_literals
 import os
 
 
+CACHE_CONTENT = False
+
 THEME = "simplez"
 
 AUTHOR = u'Tim Head'
@@ -34,20 +36,21 @@ STATIC_PATHS = ['images', 'downloads']
 DISPLAY_PAGES_ON_MENU = True
 HIDE_SIDEBAR = True
 
-PLUGIN_PATH = "pelican-plugins"
+PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook']
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
+#XXX="""
 if not os.path.exists('_nb_header.html'):
     import warnings
     warnings.warn("_nb_header.html not found.  "
                   "Rerun make html to finalize build.")
 else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
-
+#"""
 
 DEFAULT_PAGINATION = False 
 
