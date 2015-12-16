@@ -125,3 +125,10 @@ that ended up on my reading list. [karpathy](https://twitter.com/karpathy)'s [ma
  [http://papers.nips.cc/paper/5881-optimization-monte-carlo-efficient-and-embarrassingly-parallel-likelihood-free-inference]()
 
 All accepted papers are listed here: [Advances in Neural Information Processing Systems 28](http://papers.nips.cc/book/advances-in-neural-information-processing-systems-28-2015)
+
+
+## Summary
+
+It was a great experience! I saw a great deal of new things, and I now have
+reading material for the next few months. Let's see if I ever get to the end.
+If you get a chance to go to NIPS, take it. NIPS will be in Barcelona in 2016.
