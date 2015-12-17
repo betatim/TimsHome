@@ -6,32 +6,62 @@ I am an experimental physicist working at [CERN][cern], doing science with
 data. Other things I am crazy about: python, machine learning,
 statistics and triathlons.
 
-I am a member of the [LHCb collaboration][lhcb] which is based at CERN. I work
-on designing the detector upgrade, pattern recognition software as
-well as the software trigger. The trigger decides what data to record
-using features engineered by the pattern recognition. It will be
-sifting through an astounding 3TB/s of data in real time!
+I have a PhD in Experimental Particle Physics plus three years post
+doctoral experience at [CERN][cern].  During this time I have
+contributed to [open-source software][g], conceived, designed and
+developed a [four day training program for young scientists][starter],
+created a project to encourage [reproducible science][everware], lead
+teams, and developed a [better body bag][cdsbbb] for the [ICRC][icrc].
 
-I have experience as a scientist who writes a lot of software, leading international teams
-composed of experts from different fields, statistics, data science,
-machine learning and all the things you associate with a "scientific
-approach" to solving complex problems. I am a big fan of building a
-minimally viable solution to a problem and then iterating on it. In my
-spare time I like to train for and compete in triathlons.
+Things I have done:
 
-Since September 2014 I have been working for [EPFL][epfl] as a post
-doctoral researcher. I am based at CERN, the home of hte Large Hadron
-Collider. My previous two years were spent working directly for
-[CERN][cern] as a research fellow.
+* Created [Project Everware][everware] which allows users to edit and run
+  other people's code with one click, even if that code has a
+  complicated setup or environment. The aim of the project is to
+  encourage reusable and reproducible science. Presented it at [MozFest 2015][mf15].
+  Considered for the LHCb experiment's data analysis
+  preservation effort.
 
-I love to code in [Python][py], but am OK with writing C++ (mostly
-for work). Look at some of my projects on: [bitbucket][c] and
-[github][g]. I like to use data, simulations and statistics to find
-things out.
+* Conceived, designed and developed a four day training program for
+  young scientists: [the LHCb Starterkit][starter]. It covers basic
+  tools such as bash, git, and python (based on SWC material) as well
+  as the LHCb data-analysis framework. Two successful events so far
+  each with 40 participants. It is now the default training course of
+  the collaboration.
 
-[g]: https://github.com/betatim
-[c]: https://bitbucket.org/thead/
-[py]:http://python.org
+* Founded Social Solutions Research, a not-for-profit association
+  dedicated to applying technology and innovation to humanitarian
+  problems. As a team of five, we are currently contracted by the
+  International Committee of the Red Cross to develop a [better body
+  bag][cdsbbb] for mass-casualty situations.
+
+* lead two geographically distributed teams developing the simulation
+  and pattern recognition software of two sub-detectors of the LHCb
+  experiment to evaluate the performance and inform the design for the
+  upgrade of the experiment.
+
+* Contributed code, filed bugs and reviewed code focused on tree based
+  machine-learning methods for the open-source [scikit-learn][sklearn]
+  project.
+
+
+## Consulting
+
+I am passionate about bringing data analysis skills to a broad
+audience. I have experience with machine learning, data science, and
+project management. I offer consulting and training services to
+companies, institutions, individuals, and researchers -- feel free to
+contact with new opportunities.
+
+
+## Contact
+
+If you want to get in touch, send [an email](mailto:betatim@gmail.com).
+
+Tim is on [Twitter][], and he sometimes posts pretty things to [Instagram][].
+
+
+## Free time
 
 In my spare time I like to train for and compete in
 [triathlons][tri]. This involves swimming, biking and running crazy
@@ -43,13 +73,6 @@ mental challenge as you race against the clock and your expectations
 for several hours.
 
 [tri]: http://en.wikipedia.org/wiki/Triathlon
-
-##Contact
-
-If you want to get in touch, send [an email](mailto:betatim@gmail.com).
-
-Tim is on [Twitter][], and he sometimes posts pretty things to [Instagram][].
-
 [Twitter]: https://twitter.com/betatim
 [Instagram]: http://instagram.com/betatim
 
@@ -62,6 +85,15 @@ back when he lived in one of these places:
 * Chicago, USA
 * Frankfurt, Germany
 
+[icrc]: https://www.icrc.org/
+[mf15]: https://2015.mozillafestival.org/
+[sklearn]: http://scikit-learn.org
+[cdsbbb]: http://cds.cern.ch/journal/CERNBulletin/2015/30/News%20Articles/2034147
+[everware]: http://everware.xyz
+[g]: https://github.com/betatim
+[c]: https://bitbucket.org/thead/
+[py]:http://python.org
+[starter]: http://lhcb.github.io/starterkit
 [velo]: http://en.wikipedia.org/wiki/LHCb#The_VELO
 [lhcb]: http://lhcb-public.web.cern.ch/lhcb-public/
 [cern]: http://cern.ch
