@@ -35,7 +35,7 @@ Things I have done:
   International Committee of the Red Cross to develop a [better body
   bag][cdsbbb] for mass-casualty situations.
 
-* lead two geographically distributed teams developing the simulation
+* Lead two geographically distributed teams developing the simulation
   and pattern recognition software of two sub-detectors of the LHCb
   experiment to evaluate the performance and inform the design for the
   upgrade of the experiment.
