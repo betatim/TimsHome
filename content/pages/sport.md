@@ -4,8 +4,8 @@ Title: Sports
 without a break.  The aim is to complete all three sports (including
 transitions!) in the fastest time possible.
 
-> I still train and take part in triathlons, but this section
-> is hopelessly out of date.
+> I still train for and take part in triathlons, but this section
+> is hopelessly out of date (too much training?).
 
 In 2015 I ran more than 1000miles and spent over seven days cycling!
 
