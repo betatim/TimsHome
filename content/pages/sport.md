@@ -4,6 +4,11 @@ Title: Sports
 without a break.  The aim is to complete all three sports (including
 transitions!) in the fastest time possible.
 
+> I still train and take part in triathlons, but this section
+> is hopelessly out of date.
+
+In 2015 I ran more than 1000miles and spent over seven days cycling!
+
 In May 2013 I took part in the [Geneva half-marathon][genevahalf], a
 few weeks later I finished the [Cyclotour du leman][cyclotour], a
 180km bike race. It was my first "century ride" (a bike ride of more
