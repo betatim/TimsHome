@@ -5,35 +5,21 @@ little antimatter? Why this is so is one of the main questions the
 scientists of the [LHCb experiment][lhcb] hope to answer. I am one of
 them.
 
-I work for [Ecole polytechnique fédérale de Lausanne][EPFL] previously
+I am interested in applying machine-learning to particle physics. In
+particular tree based methods, bayesian optimisation and transfer
+learning.
+
+I work for [Ecole polytechnique fédérale de Lausanne][EPFL] as post-doc, previously
 I worked for [CERN][] as a research fellow. Along side my research, I
-spend a significant amount of time improving our software. This code
-will be used in the real time processing of the experiment's data, so
-performance, correctness and maintainability are key. I also think
+lead the team developing the simulation and reconstruction software
+for one of the experiment's detectors. Without our from first principles
+simulation we could not do any of our data analyses!
+I also think
 about how we can record as much data as possible by making use of
 modern machine learning techniques.
 
 [EPFL]: http://epfl.ch
 [CERN]: http://cern.ch
-
-I used to lead the team working on the reconstruction and simulation
-software for the upgrade [Vertex Locator][velo] (VELO) and am one of
-the editors of the [Technical Design Report][velotdr]. We use
-simulations to find the best design of the VELO, as well as optimising
-the performance of the reconstruction software.
-
-When running at full steam the detectors produce around 4 TB/s of
-data, unfortunately we can not afford to record all of this. Reducing
-the data volume is the job of the trigger system which processes the
-data in real time. In essence it is a large computer cluster which
-classifies data as "interesting" or "boring". The more information it
-has when making this decision the better.
-
-A successful trigger system will be better than the sum of its
-parts. I work on evaluating what the different parts of the experiment
-have to offer and how to best combine them. All the while keeping in
-mind what research we want to do, as this dictates what is
-"interesting" and what is "boring".
 
 Before coming to CERN I was a particle physics graduate student with
 [The University of Manchester][man]. My research focused on properties
