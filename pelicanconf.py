@@ -5,6 +5,9 @@ import os
 
 
 CACHE_CONTENT = False
+IGNORE_FILES = ['.#*',
+                "*-checkpoint.ipynb",
+                "*~"]
 
 THEME = "simplez"
 
@@ -31,7 +34,15 @@ PYGMENTS_STYLE = "default"
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
 
-STATIC_PATHS = ['images', 'downloads']
+thebe_files = ["thebe.css", "gistexec.js", "js-yaml.min.js",
+               "main-built.js", "marked.min.js", "tesseract.css"]
+
+STATIC_PATHS = ['images', 'downloads',
+                's/interactive.txt'] + ["s/"+f for f in thebe_files]
+EXTRA_PATH_METADATA = {'s/interactive.txt': {'path': 'interactive/index.html'},
+                   }
+EXTRA_PATH_METADATA.update(dict((("s/"+f, {'path': 'interactive/'+f})
+                                 for f in thebe_files)))
 
 DISPLAY_PAGES_ON_MENU = True
 HIDE_SIDEBAR = True
