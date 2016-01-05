@@ -1,13 +1,13 @@
 var DEFAULT_TMPNB = "https://tmpnb.org";
 
 /**
- * @class Gistie
+ * @class Notebookie
  * @classdesc pulls notebooks from GitHub gists and propagates cells on the page
  * @param {number} gistID Gist numeric id
  */
-Gistie = function(notebookName) {
+Notebookie = function(notebookName) {
   notebookName = notebookName.replace(/\/$/, "");
-  $.get("/downloads/notebooks/" + notebookName, this._read2.bind(this));
+  $.get("/downloads/notebooks/" + notebookName, this._read.bind(this));
   this.tmpnb = DEFAULT_TMPNB;
 };
 
@@ -20,61 +20,13 @@ if (!String.prototype.includes) {
   };
 }
 
-Gistie.prototype._read2 = function(notebook) {
+Notebookie.prototype._read = function(notebook) {
   var $container = $('#container');
 
   this.renderNotebook(notebook);
 
   $('#main').show();
   $('#loading').hide();
-};
-
-/**
- * Implements the callback for a Github.gist.read, intended to be bound to
- * `this`, which is bound in the constructor (this._read.bind(this)) call to read
- * @param error
- * @param {Object} Github gist
- */
-Gistie.prototype._read = function(err, gist) {
-  var $container = $('#container');
-
-  this.gist = gist;
-  console.log(this.gist);
-  this.files = gist.files;
-
-  for (var filename in gist.files) {
-    if(!gist.files.hasOwnProperty(filename)) {
-      continue;
-    }
-
-    var file = gist.files[filename];
-
-    filename = filename.toLowerCase();
-
-    if (filename.includes('.ipynb')) {
-      this._renderFile(file, this.renderNotebook);
-    } else if (filename.includes('.md')){
-      this._renderFile(file, this.renderMarkdown);
-    } else if (filename.includes('.rmd')) {
-      this._renderFile(file, this.renderRMarkdown);
-    }
-  }
-
-  $('#main').show();
-  $('#loading').hide();
-};
-
-Gistie.prototype._renderFile = function(file, cb) {
-  if (file.truncated) {
-    console.log("File truncated, fetching raw URL");
-    $.ajax({
-      url: file.raw_url,
-      success: cb.bind(this)
-    });
-  } else {
-    console.log("File small enough to render straight from gist API");
-    cb.call(this, file.content);
-  }
 };
 
 /**
@@ -97,109 +49,12 @@ upload = function(base_server, filepath, content) {
   });
 };
 
-Gistie.prototype.renderMarkdown = function(markdown) {
-  var $container = $('#container');
-  $container.empty();
-  var renderer = new marked.Renderer();
-
-  var kernel_name;
-
-  // TODO: Something sensible about language detection
-  // For now, just accept the last rendered code cell as the language
-  // TODO: mapping from language -> kernel_name
-
-  // Here we override to bring Thebe flavored cells
-  renderer.code = function(code, language) {
-    kernel_name = language;
-    return '<pre data-executable=\'true\'>' + code + '</pre>\n';
-  };
-
-  marked.setOptions({
-    renderer: renderer,
-  });
-
-  var html = marked(markdown);
-  var el = $container.append(html);
-
-  console.log("Connection to " + this.tmpnb);
-
-  this.thebe = new Thebe({
-    url: this.tmpnb,
-    kernel_name: kernel_name || "python3",
-    codemirror_mode_name: "python"
-  });
-
-};
-
-function splitFrontMatter(doc) {
-  var re = /^(-{3}(?:\n|\r)([\w\W]+?)-{3})?([\w\W]*)*/;
-  var results = re.exec(doc);
-
-  return {
-    "front": jsyaml.load(results[2]),
-    "markdown": results[3]
-  };
-
-}
-
-
-Gistie.prototype.renderRMarkdown = function(rmarkdown) {
-  var $container = $('#container');
-  $container.empty();
-
-  var matter = splitFrontMatter(rmarkdown);
-
-  var front = matter.front;
-  var markdown = matter.markdown;
-
-  var titleComponents = [];
-
-  if (front.title) {
-    $container.append('<h1>' + front.title + '</h1>');
-    titleComponents.push(front.title);
-  }
-  if (front.author) {
-    $container.append('<p><i>' + front.author + '</i></p>');
-    titleComponents.push(front.author);
-  }
-  if (front.date) {
-    $container.append('<p><i>' + front.date + '</i></p>');
-    titleComponents.push(front.date);
-  }
-
-  document.title = titleComponents.join(' - ');
-
-  var renderer = new marked.Renderer();
-
-  // Here we override to bring Thebe flavored cells
-  renderer.code = function(code, chunkHeader) {
-    // TODO: validate chunkHeader
-    // TODO: extract chunkOptions
-    return '<pre data-executable=\'true\'>' + code + '</pre>\n';
-  };
-
-  marked.setOptions({
-    renderer: renderer,
-  });
-
-  var html = marked(markdown);
-  var el = $container.append(html);
-
-  console.log("Connection to " + this.tmpnb);
-
-  this.thebe = new Thebe({
-    url: this.tmpnb,
-    kernel_name: "ir"
-  });
-
-};
-
 
 /**
  * Render a notebook on the DOM. Likely ugly.
  * @param {Object} notebook Jupyter Notebook document
  */
-Gistie.prototype.renderNotebook = function(notebook) {
+Notebookie.prototype.renderNotebook = function(notebook) {
   // TODO: Check that it's really a notebook (existence of content key)
   console.log("Rendering notebook");
 
@@ -278,12 +133,12 @@ Gistie.prototype.renderNotebook = function(notebook) {
 };
 
 /**
- * Utility funciton to set up Gistie on the page
+ * Utility funciton to set up Notebookie on the page
  */
-gistexec = function( ) {
+notebookexec = function( ) {
   var params = getUrlParams();
 
-  if (!params.gistID) {
+  if (!params.notebookID) {
     $('#main').show();
     $('#loading').hide();
     return;
@@ -312,8 +167,8 @@ gistexec = function( ) {
   });
   MathJax.Hub.Configured();
 
-  if (params.gistID) {
-    return new Gistie(params.gistID);
+  if (params.notebookID) {
+    return new Notebookie(params.notebookID);
   }
 };
 

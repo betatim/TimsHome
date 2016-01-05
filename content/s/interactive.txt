@@ -2,7 +2,7 @@
 <head>
   <link rel="stylesheet" href="thebe.css" type="text/css"/>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="gistexec.js"></script>
+  <script type="text/javascript" src="notebookexec.js"></script>
   <script type="text/javascript" src="marked.min.js"></script>
   <script type="text/javascript" src="main-built.js" charset="utf-8"></script>
   <script type="text/javascript" src="js-yaml.min.js"></script>
@@ -68,10 +68,10 @@
   <div id="main" style="display:none;">
     <div id="container" style="max-width: 800px; margin: 0 auto">
       <div class="submission">
-        <h1>Enter a Gist ID:</h1>
-          <input id="gist-id-input" type="text" placeholder="left.ipynb"  style="font-size: 14px; width: 100%;"></input>
+        <h1>Enter a notebook filename:</h1>
+          <input id="notebook-id-input" type="text" placeholder="left.ipynb"  style="font-size: 14px; width: 100%;"></input>
           <span class="input-group-btn">
-                      <button class="btn btn-default" id="gist-id-input-button" style="font-size: 14px; margin-top: 10px;">
+                      <button class="btn btn-default" id="notebook-id-input-button" style="font-size: 14px; margin-top: 10px;">
                         Go!
                       </button>
           </span>
@@ -79,10 +79,12 @@
     </div>
 
     <div class="disclaimer">
-      <h2>About <a href="https://github.com/rgbkrk/gistexec">Gist Exec</a></h2>
+      <h2>About Notebook and <a href="https://github.com/rgbkrk/gistexec">Gist Exec</a></h2>
       <p>
         <a href="https://github.com/rgbkrk/gistexec">Gist exec</a> pairs gists through github.js and the Jupyter architecture to get compute dynamically.
-        It supports IPython/Jupyter notebooks, Markdown (with code fences), and RMarkdown (minimally).
+        Notebookexec (the thing you are looking at) is a trimmed down version
+        which loads notebooks from this webserver and then uses the Jupyter architecture to get compute dynamically.
+        It only supports IPython/Jupyter notebooks.
       </p><p>
         It runs <a href="http://jupyter.org">Jupyter</a> kernels inside of Docker containers,
         <a href="https://github.com/jupyter/tmpnb">through a temporary notebook system</a>.
@@ -96,10 +98,9 @@
   </div>
 
   <script type="text/javascript">
-  var setupNewGist = function(){
-    var gistID = $('#gist-id-input').val();
-  console.log("new gist: " + gistID);
-    window.location.href = "?gistID=" + gistID
+  var setupNewNotebook = function(){
+    var notebookID = $('#notebook-id-input').val();
+    window.location.href = "?notebookID=" + notebookID
   }
 
   $(document).ready(function(){
@@ -116,14 +117,14 @@
 
     deleteAllCookies(); // Tear out old values from thebe
 
-    $('#gist-id-input-button').click(setupNewGist);
-    $("#gist-id-input").keydown(function(e){
+    $('#notebook-id-input-button').click(setupNewNotebook);
+    $("#notebook-id-input").keydown(function(e){
       if (e.keyCode === 13){
-        setupNewGist();
+        setupNewNotebook();
       }
     })
 
-    window.gistie = gistexec();
+    window.notebookie = notebookexec();
   });
   </script>
 </body>

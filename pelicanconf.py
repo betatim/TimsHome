@@ -34,7 +34,7 @@ PYGMENTS_STYLE = "default"
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
 
-thebe_files = ["thebe.css", "gistexec.js", "js-yaml.min.js",
+thebe_files = ["thebe.css", "notebookexec.js", "js-yaml.min.js",
                "main-built.js", "marked.min.js", "tesseract.css"]
 
 STATIC_PATHS = ['images', 'downloads',
