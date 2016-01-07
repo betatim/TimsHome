@@ -13,7 +13,7 @@ THEME = "simplez"
 
 AUTHOR = u'Tim Head'
 SITENAME = u"Tim Head"
-SITEURL = ''
+SITEURL = '//betatim.github.io'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -50,17 +50,19 @@ HIDE_SIDEBAR = True
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code', 'liquid_tags.notebook']
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+	   'liquid_tags.thebe']
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
-if not os.path.exists('_nb_header.html'):
-    import warnings
-    warnings.warn("_nb_header.html not found.  "
-                  "Rerun make html to finalize build.")
-else:
-    EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+# Not needed anymore with my simplez theme
+#if not os.path.exists('_nb_header.html'):
+#    import warnings
+#    warnings.warn("_nb_header.html not found.  "
+#                  "Rerun make html to finalize build.")
+#else:
+#    EXTRA_HEADER2 = open('_nb_header.html').read().decode('utf-8')
 
 DEFAULT_PAGINATION = False 
 
