@@ -20,8 +20,7 @@ I want to build a web app that allows you to browse scientific publications,
 edit them, re-run them, and fork them. Imagine my [interactive blog posts]
 meets [everware] or [mybinder].
 
-![A UI Mock Up for Everpub](https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif "A UI Mock Up for Everpub")
-
+<img width="500" alt="A UI Mock Up for Everpub" src="https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif" title="A UI Mock Up for Everpub">
 
 ## The Beginning
 
