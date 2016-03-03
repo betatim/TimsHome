@@ -2,12 +2,12 @@ Title: From One Man Band to Orchestra
 date: 2016-02-29
 slug: an-openscienceprize-story
 
-This is the story about how I put my idea for an [openscienceprize]
+This is the story of how I put my idea for an [openscienceprize]
 entry on the internet, nearly gave up on it, and then met a ton of
 incredible people. It all ended with: [everpub] - reusable research,
 21st century style.
 
-Everpub is a prototype to make reproducibility a first-class citizen
+[Everpub] is a prototype to make reproducibility a first-class citizen
 in research by enabling the publication of dynamic and interactive
 scientific narratives that can be verified, altered, reused, and cited
 from a web browser.
@@ -18,24 +18,25 @@ from a web browser.
 
 I want to build a web app that allows you to browse scientific publications,
 edit them, re-run them, and fork them. Imagine my [interactive blog posts]
-meets [everware] or [mybinder].
+meets [everware]/[mybinder] meets the [arXiv](http://arxiv.org).
 
 <img width="500" alt="A UI Mock Up for Everpub" src="https://cloud.githubusercontent.com/assets/1448859/13301888/7217ff8a-db47-11e5-9c5a-51da4527821d.gif" title="A UI Mock Up for Everpub">
 
 ## The Beginning
 
 It all [started] fairly harmlessly at the end of January. I put the
-core of my idea on github. One day later [Daniel Mietchen] posted an
+core of the idea on GitHub. One day later [Daniel Mietchen] posted an
 issue about using a different license. I got in touch with a few
-people, exchanged ideas, discussed the way forward. However there was
-not much traction. 
+people, exchanged ideas, discussed the way forward. Not much happened,
+there was not much traction. People were not joining me.
 
 There is a lot of discussion and advice on the subject of putting your
 grant proposals, science ideas, etc out on the internet for everyone
 to read before you even submitted them or did any work on them. Mostly
-people worry about it being stolen. Far from everyone stealing my
-idea, I think the main action taken by others was to ignore it. Damn
-it!
+people worry about it being stolen.
+
+Far from everyone stealing my idea, the main action taken by others
+was to ignore it. Damn it!
 
 
 ## On hold
@@ -63,19 +64,22 @@ dating]. Either way, we now were a team!
 In the end a huge number of people contributed to the final proposal.
 I think once one outsider joins (who happens to be super well
 connected) it becomes much easier for others to sign on. The most
-surprising was that people I had contacted earlier and who were only
-mildly interested suddenly did join and contributed!
+surprising thing for me was that people I had contacted earlier and
+who were only mildly interested suddenly did join and contributed!
 
 There was a lot of editing, discussing, to-and-fro'ing, and tons of
-ideation, as well as some [grant-y language]. Some discussions we
-could not settle in time for the deadline, which jsut shows how
-difficult it is to get this right.
+ideation, as well as some [grant-y language]. We could not settle all
+discussions in time for the deadline, which shows you how difficult it
+is to get this right.
 
 The proposal we got in the end was much better than what we started
 with. Several organisations and publishers showed their interest. The
 proposal itself has received nearly 500 unique visits, and has more
-stars then any other github repo I have created. For what that is
-worth, I will book it under success.
+stars then any other GitHub repo I have ever created. This is not
+meant as a `#humblebrag`, I am still amazed that this happened. It
+shows you the power of the internet.
+
+For what that is worth, I will book this as a success.
 
 
 ## Openness first
@@ -94,21 +98,22 @@ In a similar vein academics spend a lot of time discussing author
 lists. What is the minimum contribution to be listed? Should we allow
 anyone to join? How do we order them? My feeling is this time could be
 better spent getting stuff done. History will not remember those who
-wrote a [vague-but-exciting](http://info.cern.ch/Proposal.html) but
-those who execute on it and remove the vague part to make it exciting.
+wrote a [vague-but-exciting](http://info.cern.ch/Proposal.html)
+proposal but those who execute on it and remove the vague part to make
+it exciting.
 
-To quote an anonymous friend in reply to adding their name to the
-proposal: "Nah, thanks. I like the idea but I won't pretend I'll give
-you serious help. And I can still join later since it is open source
-:)"
+To quote an anonymous friend in when asked if they wanted to add their
+name to the proposal: "Nah, thanks. I like the idea but I won't
+pretend I'll give you serious help. And I can still join later since
+it is open source :)"
 
 
 ## Conclusion
 
-Everpub aims to disrupt scientific publishing, in a good way. Let's see
-how much of that big talk we can actually deliver. [Everpub] will be
-a open-source project so expect me to be trying to persuade you to
-join to do some actual work.
+[Everpub] aims to disrupt scientific publishing, in a good way. Let's
+see how much of that big talk we can actually deliver. [Everpub] will
+be a open-source project so expect me to visit you to persuade you to
+join for some actual work.
 
 In the mean time, enjoy this science picture:
 
