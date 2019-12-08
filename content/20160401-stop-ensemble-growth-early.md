@@ -8,7 +8,7 @@ you can modify and run the code directly from your browser.
 To see any of the output you have to run each of the cells.
 
 
-{% thebe early-stopping-trees.ipynb cells[1:] %}
+{% notebook early-stopping-trees.ipynb cells[1:] %}
 
 This post started life as a jupyter notebook,
 [download it](/downloads/notebooks/early-stopping-trees.ipynb)

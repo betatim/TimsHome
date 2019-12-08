@@ -1,4 +1,5 @@
 Title: Sports
+status: hidden
 
 [Triathlon][tri]: swimming, biking and running crazy long distances
 without a break.  The aim is to complete all three sports (including

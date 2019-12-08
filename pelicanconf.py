@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import os
-
 
 CACHE_CONTENT = False
 IGNORE_FILES = ['.#*',
@@ -50,8 +48,7 @@ HIDE_SIDEBAR = True
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code', 'liquid_tags.notebook',
-	   'liquid_tags.thebe']
+           'liquid_tags.include_code', 'liquid_tags.notebook']
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
@@ -64,7 +61,7 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 #else:
 #    EXTRA_HEADER2 = open('_nb_header.html').read().decode('utf-8')
 
-DEFAULT_PAGINATION = False 
+DEFAULT_PAGINATION = False
 
 DEFAULT_DATE_FORMAT = "%d %B %Y"
 

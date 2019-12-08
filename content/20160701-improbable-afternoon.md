@@ -2,7 +2,7 @@ Title: An Improbable Afternoon
 date: 2016-07-01
 slug: improbable-afternoon
 
-{% thebe improbable-afternoon.ipynb cells[1:] %}
+{% notebook improbable-afternoon.ipynb cells[1:] %}
 
 This post started life as a jupyter notebook,
 [download it](/downloads/notebooks/improbable-afternoon.ipynb)

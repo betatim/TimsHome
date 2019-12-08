@@ -1,4 +1,5 @@
 title: Science
+status: hidden
 
 Have you noticed that the universe is full of matter and surprisingly
 little antimatter? Why this is so is one of the main questions the
@@ -64,7 +65,7 @@ internal collaboration review.
 I wrote the code to select events, compare simulation to data and
 perform the statistical analysis, edited the paper and shepherded the
 paper through internal collaboration and journal review.
- 
+
 ###Measurement of spin correlation in tt̅ production using a matrix element approach
 
 [Phys.Rev.Lett. 107 (2011) 032001][spinmatrix]

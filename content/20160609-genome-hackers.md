@@ -1,8 +1,8 @@
-Title: Genome Assembly for Hackers 
+Title: Genome Assembly for Hackers
 date: 2016-06-09
 slug: genome-hackers
 
-{% thebe genome-assembly.ipynb cells[1:] %}
+{% notebook genome-assembly.ipynb cells[1:] %}
 
 This post started life as a jupyter notebook,
 [download it](/downloads/notebooks/genome-assembly.ipynb)

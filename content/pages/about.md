@@ -1,57 +1,53 @@
-Title: About
+Title: About Me
 
 <a href="/images/tim.png">{% img /images/tim_thumb.png 200 200 "Tim Head" "Tim Head" %}</a>
 
-I am an experimental physicist working at [CERN][cern], doing science with
-data. Other things I am crazy about: python, machine learning,
-statistics and triathlons.
+Handling unforeseen and unsolved challenges on a daily basis. I lead the
+[Binder Project](https://mybinder.readthedocs.io/en/latest/about.html) and
+work at [Skribble](https://skribble.com) as a senior software engineer. In
+my free time I swim, bike, run.
 
-I have a PhD in Experimental Particle Physics plus three years post
-doctoral experience at [CERN][cern].  During this time I have
-contributed to [open-source software][g], conceived, designed and
-developed a [four day training program for young scientists][starter],
-created a project to encourage [reproducible science][everware], lead
-teams, and developed a [better body bag][cdsbbb] for the [ICRC][icrc].
+## History
+
+In the autumn of 2018 I joined [Skribble](https://skribble.com) as a senior
+software engineer.
+
+In May 2016 I started <a href="https://wildtreetech.com">Wild Tree Tech</a> a
+Switzerland based engineering company that builds, maintains and operates
+[JupyterHubs](https://jupyterhub.readthedocs.io/en/stable/) and
+[BinderHubs](https://github.com/jupyterhub/binderhub) for teachers,
+data-science teams and the community.
+
+Previously I was an experimental physicist working at [CERN][cern],
+doing science with data.
+
+I have a PhD in Experimental Particle Physics from [The University of Manchester](https://www.manchester.ac.uk/).
 
 Things I have done:
 
 * Created [Project Everware][everware] which allows users to edit and run
-  other people's code with one click, even if that code has a
-  complicated setup or environment. The aim of the project is to
-  encourage reusable and reproducible science. Presented it at [MozFest 2015][mf15].
-  Considered for the LHCb experiment's data analysis
-  preservation effort.
+  other people's code with one click, even if that code has
+  complicated setup instructions. This project has morphed into [mybinder.org][binder]
+  which serves over 100000 sessions a week to the general public. I continue to
+  lead the project.
 
 * Conceived, designed and developed a four day training program for
   young scientists: [the LHCb Starterkit][starter]. It covers basic
   tools such as bash, git, and python (based on SWC material) as well
-  as the LHCb data-analysis framework. Two successful events so far
-  each with 40 participants. It is now the default training course of
-  the collaboration.
+  as the LHCb data-analysis framework. The first event had 40 participants.
+  It is now the default training course of the collaboration.
 
 * Founded Social Solutions Research, a not-for-profit association
   dedicated to applying technology and innovation to humanitarian
-  problems. As a team of five, we are currently contracted by the
+  problems. I lead a team of five, we were contracted by the
   International Committee of the Red Cross to develop a [better body
-  bag][cdsbbb] for mass-casualty situations.
+  bag][cdsbbb] for mass-casualty situations. We received over CHF100'000
+  of grant funding to further develop the bag. [Read more][bbb].
 
-* Lead two geographically distributed teams developing the simulation
-  and pattern recognition software of two sub-detectors of the LHCb
-  experiment to evaluate the performance and inform the design for the
-  upgrade of the experiment.
-
-* Contributed code, filed bugs and reviewed code focused on tree based
+* I got my start in open-source projects by contributing code,
+  filing bugs and reviewing code focused on tree based
   machine-learning methods for the open-source [scikit-learn][sklearn]
   project.
-
-
-## Consulting
-
-I am passionate about bringing data analysis skills to a broad
-audience. I have experience with machine learning, data science, and
-project management. I offer consulting and training services to
-companies, institutions, individuals, and researchers -- feel free to
-contact with new opportunities.
 
 
 ## Contact
@@ -67,8 +63,8 @@ In my spare time I like to train for and compete in
 [triathlons][tri]. This involves swimming, biking and running crazy
 long distances without a break. The aim is to complete all three
 sports (including transitions!) in the fastest time possible. I enjoy
-the challenge of planning and training as well as juggling live and
-work during the months before the race. Race day is a physical and
+the challenge of planning and executing my training as well as juggling life and
+work during the months before a race. Race day is a physical and
 mental challenge as you race against the clock and your expectations
 for several hours.
 
@@ -78,9 +74,10 @@ for several hours.
 
 ##Location, location, location
 
-Tim currently lives near Geneva, Switzerland. You might have met him
+Tim currently lives in Brugg, Switzerland. You might have met him
 back when he lived in one of these places:
 
+* Geneva, Switzerland
 * Manchester, England
 * Chicago, USA
 * Frankfurt, Germany
@@ -89,6 +86,7 @@ back when he lived in one of these places:
 [mf15]: https://2015.mozillafestival.org/
 [sklearn]: http://scikit-learn.org
 [cdsbbb]: http://cds.cern.ch/journal/CERNBulletin/2015/30/News%20Articles/2034147
+[bbb]: https://blogs.icrc.org/inspired/2019/07/12/building-better-body-bag/
 [everware]: http://everware.xyz
 [g]: https://github.com/betatim
 [c]: https://bitbucket.org/thead/
@@ -98,3 +96,4 @@ back when he lived in one of these places:
 [lhcb]: http://lhcb-public.web.cern.ch/lhcb-public/
 [cern]: http://cern.ch
 [epfl]: http://epfl.ch
+[binder]: https://mybinder.org
