@@ -1,4 +1,5 @@
-Title: About Me
+title: About Me
+slug: about
 
 <a href="/images/tim.png">{% img /images/tim_thumb.png 200 200 "Tim Head" "Tim Head" %}</a>
 
