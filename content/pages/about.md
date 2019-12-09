@@ -10,7 +10,8 @@ my free time I swim, bike, run.
 ## History
 
 In the autumn of 2018 I joined [Skribble](https://skribble.com) as a senior
-software engineer.
+software engineer. I continue to offer [JupyterHub consulting][wtt] through
+Wild Tree Tech.
 
 In May 2016 I started <a href="https://www.wildtreetech.com">Wild Tree Tech</a> a
 Switzerland based engineering company that builds, maintains and operates
@@ -97,3 +98,4 @@ back when he lived in one of these places:
 [cern]: http://cern.ch
 [epfl]: http://epfl.ch
 [binder]: https://mybinder.org
+[wtt]: https://www.wildtreetech.com

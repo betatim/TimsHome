@@ -9,9 +9,9 @@ IGNORE_FILES = ['.#*',
 
 THEME = "simplez"
 
-AUTHOR = u'Tim Head'
-SITENAME = u"Tim Head"
-SITEURL = '//betatim.github.io'
+AUTHOR = 'Tim Head'
+SITENAME = "Tim Head's blog"
+SITEURL = 'https://betatim.github.io'
 
 TIMEZONE = 'Europe/Paris'
 
