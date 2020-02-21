@@ -46,7 +46,7 @@ DISPLAY_PAGES_ON_MENU = True
 HIDE_SIDEBAR = True
 
 PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
+PLUGINS = ['sitemap', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook']
 
