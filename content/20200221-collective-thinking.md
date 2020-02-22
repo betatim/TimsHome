@@ -10,6 +10,7 @@ What features do you look for in an issue tracker for your team or whole company
 Think about it for a moment. Have you thought of three? Good.
 
 Here are the top three items I look at when evaluating a system:
+
 * how much screen real estate is given to reading and writing comments
 * how well does the notification system work for power users
 * how good is the automatic cross referencing support
