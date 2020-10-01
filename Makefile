@@ -117,7 +117,7 @@ deploy: publish
 	else cd _build && git clone git@github.com:betatim/$(DEPLOYREPOSITORY).git; \
 	fi
 	cd _build/$(DEPLOYREPOSITORY) && git pull
-	rsync -r $(OUTPUTDIR)/* _build/$(DEPLOYREPOSITORY)/
+	rsync -ar $(OUTPUTDIR)/ _build/$(DEPLOYREPOSITORY)/
 	cd _build/$(DEPLOYREPOSITORY) && git add . && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
