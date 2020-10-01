@@ -35,7 +35,7 @@ ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
 thebe_files = ["thebe.css", "notebookexec.js", "js-yaml.min.js",
                "main-built.js", "marked.min.js", "tesseract.css"]
 
-STATIC_PATHS = ['images', 'downloads',
+STATIC_PATHS = ['images', 'downloads', '.well-known',
                 's/interactive.txt'] + ["s/"+f for f in thebe_files]
 EXTRA_PATH_METADATA = {'s/interactive.txt': {'path': 'interactive/index.html'},
                    }
