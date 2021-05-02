@@ -4,14 +4,19 @@ slug: about
 <a href="/images/tim.png">{% img /images/tim_thumb.png 200 200 "Tim Head" "Tim Head" %}</a>
 
 Handling unforeseen and unsolved challenges on a daily basis. I lead the
-[Binder Project](https://mybinder.readthedocs.io/en/latest/about.html) and
-work at [Skribble](https://skribble.com) as a senior software engineer. In
+[Binder Project](https://mybinder.readthedocs.io/en/latest/about/about.html) and
+work at [Skribble](https://skribble.com). I love using my training as a
+physicist and experience in solving complex problems as a team to build tools
+that solve real world problems for real humans. In
 my free time I swim, bike, run.
 
 ## History
 
-In the autumn of 2018 I joined [Skribble](https://skribble.com) as a senior
-software engineer. I continue to offer [JupyterHub consulting][wtt] through
+Over the last two years I have helped build and scale [Skribble](https://skribble.com)
+- we offer easy to use and legally binding electronic signatures.
+
+In the autumn of 2018 I joined Skribble as the first
+full time employee. I continue to offer [JupyterHub consulting][wtt] through
 Wild Tree Tech.
 
 In May 2016 I started <a href="https://www.wildtreetech.com">Wild Tree Tech</a> a
@@ -25,7 +30,7 @@ doing science with data.
 
 I have a PhD in Experimental Particle Physics from [The University of Manchester](https://www.manchester.ac.uk/).
 
-Things I have done:
+Some of the things I have done:
 
 * Created [Project Everware][everware] which allows users to edit and run
   other people's code with one click, even if that code has
@@ -45,6 +50,13 @@ Things I have done:
   International Committee of the Red Cross to develop a [better body
   bag][cdsbbb] for mass-casualty situations. We received over CHF100'000
   of grant funding to further develop the bag. [Read more][bbb].
+
+* Completed a Ironman 70.3 or Half Ironman. The "70.3" refers to the total
+  distance in miles covered in the race. It consists of a 1.2 mile
+  swim, a 56 mile bike ride, and a 13.1 mile run.
+  For this I planned and execute my training schedule over several years of
+  getting fit. On the day I completed the race in just over five hours, because
+  the race was in the England it rained most of the time. It was glorious.
 
 * I got my start in open-source projects by contributing code,
   filing bugs and reviewing code focused on tree based
@@ -76,13 +88,14 @@ for several hours.
 
 ##Location, location, location
 
-Tim currently lives in Brugg, Switzerland. You might have met him
-back when he lived in one of these places:
+I currently live in Stäfa, Switzerland. Close to Zurich. We might have met
+back when I lived in one of these places:
 
+* Brugg, Switzerland
 * Geneva, Switzerland
 * Manchester, England
 * Chicago, USA
-* Frankfurt, Germany
+* Rödermark, Germany
 
 [icrc]: https://www.icrc.org/
 [mf15]: https://2015.mozillafestival.org/
