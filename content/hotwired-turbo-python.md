@@ -2,6 +2,8 @@ Title: TIL: Hotwire's Turbo with Python
 date: 2021-04-25
 slug: hotwire-turbo-with-python
 
+_[What is a TIL?](../til-explained)_
+
 [Hotwire's Turbo Streams](https://turbo.hotwire.dev/handbook/streams) can use
 WebSockets to stream updates. How to do this is not well documented in the
 handbook. This post contains my notes on building a prototype to figure out

@@ -2,6 +2,8 @@ Title: TIL: PDF JS Preview
 date: 2021-05-02
 slug: pdf-js-preview
 
+_[What is a TIL?](../til-explained)_
+
 Today I learnt how to use [PDF.js](https://mozilla.github.io/pdf.js/) to
 add a PDF preview to a HTML form without having to upload the file to a server.
 

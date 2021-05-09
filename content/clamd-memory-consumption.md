@@ -2,6 +2,8 @@ Title: TIL: Limiting clamav memory usage
 date: 2021-05-06
 slug: clamav-memory-usage
 
+_[What is a TIL?](../til-explained)_
+
 Today I learnt how to limit [clamd's](https://www.clamav.net/) memory consumption.
 
 The `clamd` process uses a lot of memory (about 1GB) because it loads the
