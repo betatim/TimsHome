@@ -10,7 +10,7 @@ I learnt.
 
 I learnt about TILs from [Simon Willison](https://simonwillison.net/2020/Apr/20/self-rewriting-readme/)
 who picked up the idea from [Josh Branchaud](https://joshbranchaud.com/).
-Josh's description of what a TIL is
+Josh's description of what a TIL is:
 
 > A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies.
 
