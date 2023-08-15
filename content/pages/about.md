@@ -5,7 +5,7 @@ slug: about
 
 Handling unforeseen and unsolved challenges on a daily basis. I work at [NVIDIA](https://nvidia.com)
 and am a core developer of [scikit-learn][sklearn]. I love using my training as a
-physicist and experience in solving complex problems to build tools
+physicist and experience in solving complex problems with a team to build tools
 that solve real world problems for real humans. In my free time I swim, bike, run, ski, hike
 and cook.
 
