@@ -3,21 +3,23 @@ slug: about
 
 <a href="/images/tim.png">{% img /images/tim_thumb.png 200 200 "Tim Head" "Tim Head" %}</a>
 
-Handling unforeseen and unsolved challenges on a daily basis. I lead the
-[Binder Project](https://mybinder.readthedocs.io/en/latest/about/about.html) and
-work at [Skribble](https://skribble.com). I love using my training as a
-physicist and experience in solving complex problems as a team to build tools
-that solve real world problems for real humans. In
-my free time I swim, bike, run.
+Handling unforeseen and unsolved challenges on a daily basis. I work at [NVIDIA](https://nvidia.com)
+and am a core developer of [scikit-learn][sklearn]. I love using my training as a
+physicist and experience in solving complex problems to build tools
+that solve real world problems for real humans. In my free time I swim, bike, run, ski, hike
+and cook.
 
 ## History
 
-Over the last two years I have helped build and scale [Skribble](https://skribble.com)
-- we offer easy to use and legally binding electronic signatures.
+In September 2022 I joined NVIDIA to work on scikit-learn.
 
-In the autumn of 2018 I joined Skribble as the first
-full time employee. I continue to offer [JupyterHub consulting][wtt] through
-Wild Tree Tech.
+I was one of the people who invented, built and operated [Binder Project](https://mybinder.readthedocs.io/en/latest/about/about.html). Most well known for
+[mybinder.org](https://mybinder.org). I am now an emeritus contributor.
+
+In the autumn of 2018 I joined [Skribble](https://skribble.com) as the first
+full time employee. Over the next four years I helped build and scale the product and
+company from zero daily signatures to thousands of legally binding electronic
+signatures a day.
 
 In May 2016 I started <a href="https://www.wildtreetech.com">Wild Tree Tech</a> a
 Switzerland based engineering company that builds, maintains and operates
@@ -35,8 +37,8 @@ Some of the things I have done:
 * Created [Project Everware][everware] which allows users to edit and run
   other people's code with one click, even if that code has
   complicated setup instructions. This project has morphed into [mybinder.org][binder]
-  which serves over 100000 sessions a week to the general public. I continue to
-  lead the project.
+  which serves over 100000 sessions a week to the general public. After leading the project
+  for several years, I am now a emeritus contributor.
 
 * Conceived, designed and developed a four day training program for
   young scientists: [the LHCb Starterkit][starter]. It covers basic
@@ -50,6 +52,9 @@ Some of the things I have done:
   International Committee of the Red Cross to develop a [better body
   bag][cdsbbb] for mass-casualty situations. We received over CHF100'000
   of grant funding to further develop the bag. [Read more][bbb].
+
+* Skied to the top of an [almost 4000m peak](https://s.geo.admin.ch/a12456070a) (and back down).
+  I walked to the top of the [Bishorn (4151m)](https://s.geo.admin.ch/a1245812ed).
 
 * Completed a Ironman 70.3 or Half Ironman. The "70.3" refers to the total
   distance in miles covered in the race. It consists of a 1.2 mile
