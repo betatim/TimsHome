@@ -78,14 +78,9 @@ Tim is on [Twitter][], and he sometimes posts pretty things to [Instagram][].
 
 ## Free time
 
-In my spare time I like to train for and compete in
-[triathlons][tri]. This involves swimming, biking and running crazy
-long distances without a break. The aim is to complete all three
-sports (including transitions!) in the fastest time possible. I enjoy
-the challenge of planning and executing my training as well as juggling life and
-work during the months before a race. Race day is a physical and
-mental challenge as you race against the clock and your expectations
-for several hours.
+In my spare time I like to be active outdoors, and cook. I swim, run, bike,
+ski, climb and hike as often as I can. I enjoy
+the challenge of planning and executing my training as well as juggling life and work. 
 
 [tri]: http://en.wikipedia.org/wiki/Triathlon
 [Twitter]: https://twitter.com/betatim
